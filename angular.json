@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/scss/black-dashboard.scss"
             ],
             "scripts": []
           },
@@ -88,6 +89,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -117,8 +119,20 @@
               "devServerTarget": "spaghetti-supply-project:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "cname": "spaghetti.supply"
+          }
         }
       }
-    }},
-  "defaultProject": "spaghetti-supply-project"
+    }
+  },
+  "defaultProject": "spaghetti-supply-project",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
