@@ -1,0 +1,23 @@
+.navbar-collapse {
+    display: flex;;
+    column-count: auto;
+    flex-basis: 0%;
+}
+.navbar-nav {
+    display: block;
+}
+.navbar-collapse ul li {
+    float: left;
+}
+.navbar-icon-holder {
+    display: inline-block;
+    position:unset;
+}
+.container {
+    margin-left: 0px;
+}
+.navbar {
+    background: #833bad;
+    position: fixed;
+    max-height: 63px;
+}

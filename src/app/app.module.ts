@@ -7,13 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BologneseComponent } from './bolognese/bolognese.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    BologneseComponent
   ],
   imports: [
     BrowserModule,

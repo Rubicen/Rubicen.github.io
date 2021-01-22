@@ -1,0 +1,7 @@
+.footer {
+    padding: 24px 24px 24px 24px;
+    position: unset !important;
+    bottom: 0px; 
+    width: 100%; 
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+
+.router-outlet {
+    flex: 1;
+    margin-top:63px;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+}
+.body {
+    margin-left: 0px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
