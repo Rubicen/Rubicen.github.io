@@ -1,6 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0px; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0px; font-family: Roboto, "Helvetica Neue", sans-serif; font-size: 0.925rem !important;}
 footer { position: fixed !important; bottom: 0px; width: 100%; text-align: center;}
 .navbar { margin-left: 0px;}
+code {
+    background: lightgrey;
+    display: inline-block;
+    color: black !important;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px white solid;
+}

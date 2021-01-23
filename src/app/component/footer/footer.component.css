@@ -4,4 +4,11 @@
     bottom: 0px; 
     width: 100%; 
     text-align: center;
+    background: #682f8a;
+}
+.github-icon {
+    height: 16px;
+    margin-left: 5px;
+    margin-right: 3px;
+    margin-bottom: 3px;
 }

@@ -6,18 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  themeOptions = [{name: 'Dark Theme', value:'purple-green'},{name: 'Light Theme', value: 'indigo-pink'}]
-  theme: string = 'Dark Theme';
+  iconCount: number = 0;
   constructor() { }
 
-  ngOnInit(): void {
-    //this.onThemeClick('Dark Theme');
+  ngOnInit(): void { 
   }
 
-  //onThemeClick(theme: string){
-  //  var themeName = this.themeOptions.find(r => r.name == theme).value;
-  //  this.theme = theme;
-  //  (document.getElementById('themeAsset') as any).href = `assets/${themeName}.css`;
-  //}
-
+  iconCounter(){
+    this.iconCount++;
+    if (this.iconCount == 10){
+      alert(`Spaghetti Supply
+For all your spaghetti needs
+It's all bad code here...`);
+    }
+  }
 }
