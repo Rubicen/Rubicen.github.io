@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { BologneseComponent } from './bolognese/bolognese.component';
+import { DrivingGameComponent } from './driving-game/driving-game.component';
 
 const routes: Routes = [
 	{ path: '', redirectTo: '/Home', pathMatch: 'full' },
 	{ path: 'Home', component: HomeComponent },
-	{ path: 'Bolognese', component: BologneseComponent }
+  { path: 'Bolognese', component: BologneseComponent },
+  { path: 'Zoomzoom', component: DrivingGameComponent }
 ];
 
 @NgModule({

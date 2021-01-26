@@ -8,6 +8,7 @@ import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BologneseComponent } from './bolognese/bolognese.component';
+import { DrivingGameComponent } from './driving-game/driving-game.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BologneseComponent } from './bolognese/bolognese.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    BologneseComponent
+    BologneseComponent,
+    DrivingGameComponent
   ],
   imports: [
     BrowserModule,
