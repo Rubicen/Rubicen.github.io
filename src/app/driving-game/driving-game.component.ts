@@ -45,7 +45,7 @@ export class DrivingGameCar implements OnInit {
   private x: number;
   private y: number;
   private type: string;
-  private angle: number;
+  angle: number;
   speed: number;
   moveAngle: number;
   constructor(gameArea, width: number, height: number, color: string, x: number, y: number, type: string = null){
@@ -72,7 +72,7 @@ export class DrivingGameCar implements OnInit {
     ctx.restore();    
   }
   newPos() {
-    this.angle += this.moveAngle * Math.PI* 180;
+    this.angle += this.moveAngle * Math.PI/ 180;
     this.x += this.speed * Math.sin(this.angle);
     this.y -= this.speed * Math.cos(this.angle);
   }
@@ -97,6 +97,7 @@ export class DrivingGameArea implements OnInit {
 
   start() {
     this.canvas = document.createElement("canvas");
+    this.canvas.style.background = 'grey';
     this.canvas.height = this.canvasHeight;
     this.canvas.width = this.canvasWidth;
     this.context = this.canvas.getContext("2d");
