@@ -9,6 +9,7 @@ import { FooterComponent } from './component/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BologneseComponent } from './bolognese/bolognese.component';
 import { DrivingGameComponent } from './driving-game/driving-game.component';
+import { SpoonComponent } from './spoon/spoon.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DrivingGameComponent } from './driving-game/driving-game.component';
     HeaderComponent,
     FooterComponent,
     BologneseComponent,
-    DrivingGameComponent
+    DrivingGameComponent,
+    SpoonComponent
   ],
   imports: [
     BrowserModule,
